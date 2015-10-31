@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Server 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="temp_button">temp</string>
+    <string name="test_button">test</string>
+    <string name="humi_button">humi</string>
+    <string name="null_button">null</string>
+</resources>

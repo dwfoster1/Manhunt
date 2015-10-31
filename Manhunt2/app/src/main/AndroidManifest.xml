@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dylan.manhunt" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginScreen"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+        </activity>
+        <activity
+            android:name=".CreateGame"
+            android:label="@string/title_activity_create_game" >
+        </activity>
+        <activity
+            android:name=".StartScreen"
+            android:label="@string/title_activity_start_screen" >
+        </activity>
+        <activity
+            android:name=".SetupGame"
+            android:label="@string/title_activity_setup_game" >
+        </activity>
+        <activity
+            android:name=".Rules"
+            android:label="@string/title_activity_rules" >
+        </activity>
+        <activity
+            android:name=".HuntersWin"
+            android:label="@string/title_activity_hunters_win" >
+        </activity>
+        <activity
+            android:name=".HappyHunting"
+            android:label="@string/title_activity_happy_hunting" >
+        </activity>
+        <activity
+            android:name=".TimesUp"
+            android:label="@string/title_activity_times_up" >
+        </activity>
+        <activity
+            android:name=".YouAreTheHunter"
+            android:label="@string/title_activity_you_are_the_hunter" >
+        </activity>
+        <activity
+            android:name=".YouAreBeingHunted"
+            android:label="@string/title_activity_you_are_being_hunted" >
+        </activity>
+        <activity
+            android:name=".YouSurvived"
+
+            android:label="@string/title_activity_you_survived" >
+        </activity>
+    </application>
+
+</manifest>
